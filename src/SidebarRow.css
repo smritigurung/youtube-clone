@@ -28,3 +28,18 @@
 .sidebarRow:hover > .sidebarRow__title {
   font-weight: bold;
 }
+
+.sidebarRow.selected {
+  /* if the the title in sidebarRow is selected, then give the background color lightgray */
+  background-color: lightgray;
+}
+
+/* if the title in sidebarRow is selected, then change the icon color to red */
+.sidebarRow.selected > .sidebarRow__icon {
+  color: red;
+}
+
+/* if the title in sidebarRow is selected, then change the font-weight of the title to bold */
+.sidebarRow.selected > .sidebarRow__title {
+  font-weight: bold;
+}
