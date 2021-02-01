@@ -15,6 +15,7 @@ import stone from './images/stone.jpg'
 import beautiful from './images/beautiful.png'
 import blackpink from './images/blackpink.jpg'
 import last from './images/last.png'
+import howYouLikeThat from './images/howYouLikeThat.png'
 
 function RecommendedVideos () {
   return (
@@ -70,6 +71,13 @@ function RecommendedVideos () {
           channelImage={blackpink}
           channel='BLACKPINK'
           image={last} />
+        <VideoCard
+          title="BLACKPINK - 'How You Like That' M/V"
+          views='754M Views'
+          timestamp='7 months ago'
+          channelImage={blackpink}
+          channel='BLACKPINK'
+          image={howYouLikeThat} />
       </div>
     </div>
   )
