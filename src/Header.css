@@ -27,6 +27,7 @@
 }
 
 .header__inputButton {
+  /* !important is used because of material UI */
   width: 50px !important;
   background-color: #fafafa;
   border-left: 1px solid lightgray;
